@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #05052e;
+}
+.wrapper .row {
+    display: flex;
+}
+.wrapper .row .col {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #F7F7F7;
+    background: #05052e;
+    cursor: pointer;
+    color: white;
+    font-size: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns {
+    margin-top: 30px;
+}
+button {
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+}
+#reset {
+    background: rgb(237, 54, 30);
+    color: #F7F7F7;
+    font-size: 17px;
+}
+#again {
+    background: lime;
+}
+.title {
+    margin-bottom: 30px;
+    color: #F7F7F7;
+}
+.res {
+    margin-top: 50px;
+    background: lime;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(67, 0, 31);
+}
+#turn {
+    color: rgb(230, 225, 255);
+    text-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    padding: 2px;
+    background: black;
+}
+#result {
+    color: rgb(230, 225, 255);
+    text-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    padding: 2px;
+    background: black;
+}
+
+.title div {
+    background: rgb(255, 0, 230);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 7px rgba(255, 255, 255, 0.5);
+}
+.title div {
+    display: flex;
+}
